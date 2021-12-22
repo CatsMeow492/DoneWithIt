@@ -5,3 +5,7 @@ sudo npm i -g expo-cli
 expo init donewithit
 
 >Blank
+
+npm i @react-native-community/hooks
+
+rsf
