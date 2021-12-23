@@ -6,6 +6,7 @@ function WelcomeScreen(props) {
         <ImageBackground style={styles.background} source={require('../assets/background.jpg')}>
             <View style={styles.logoContainer}>
                 <Image style={styles.logo} source={require('../assets/logo-red.png')} />
+                <Text>The App I Built Instead of Harrison's</Text>
             </View>
             <View style={styles.loginButton}>
                 <Text style={styles.loginText}>Login</Text>
