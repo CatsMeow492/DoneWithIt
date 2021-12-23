@@ -1,12 +1,14 @@
 import React from 'react';
 import { ImageBackground, StyleSheet, View, Image, Text } from 'react-native'
 
+import Colors from '../config/colors',
+
 function WelcomeScreen(props) {
     return (
         <ImageBackground style={styles.background} source={require('../assets/background.jpg')}>
             <View style={styles.logoContainer}>
                 <Image style={styles.logo} source={require('../assets/logo-red.png')} />
-                <Text>The App I Built Instead of Harrison's</Text>
+                <Text style={styles.logoText}>The App I Built Instead of Harrison's</Text>
             </View>
             <View style={styles.loginButton}>
                 <Text style={styles.loginText}>Login</Text>
@@ -27,7 +29,7 @@ const styles = StyleSheet.create({
     loginButton: {
         width: '100%',
         height: 70,
-        backgroundColor: "#fc5c65"
+        backgroundColor: Colors.primary
     },
     loginText: {
         color: 'white',
@@ -41,16 +43,21 @@ const styles = StyleSheet.create({
     registerButton: {
         width: '100%',
         height: 70,
-        backgroundColor: "#4ecdc4"
+        backgroundColor: Colors.secondary
     },
     registerText: {
         color: 'white',
-        fontSize: 'Roboto',
+        fontStyle: 'Roboto',
         justifyContent: 'center',
         textAlign: 'center',
         fontWeight: 'bold',
         fontSize: 50,
         marginTop: 10,
+    },
+    logoText: {
+        fontSize: 27,
+        fontWeight: 'bold',
+        fontStyle: 'Roboto',
     },
     logo: {
         position: 'absolute',
