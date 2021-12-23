@@ -27,6 +27,8 @@
     },
     "web": {
       "favicon": "./app/assets/favicon.png"
-    }
+    },
+    "description": "A small example app created to get some practice using various react native libraries and refactoring config files.",
+    "githubUrl": "https://github.com/CatsMeow492/DoneWithIt"
   }
 }

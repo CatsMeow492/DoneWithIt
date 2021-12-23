@@ -33,7 +33,7 @@ const styles = StyleSheet.create({
     },
     loginText: {
         color: 'white',
-        fontSize: 'Roboto',
+        fontFamily: 'Roboto',
         justifyContent: 'center',
         textAlign: 'center',
         fontWeight: 'bold',
@@ -47,7 +47,7 @@ const styles = StyleSheet.create({
     },
     registerText: {
         color: 'white',
-        fontStyle: 'Roboto',
+        fontFamily: 'Roboto',
         justifyContent: 'center',
         textAlign: 'center',
         fontWeight: 'bold',
@@ -57,7 +57,10 @@ const styles = StyleSheet.create({
     logoText: {
         fontSize: 27,
         fontWeight: 'bold',
-        fontStyle: 'Roboto',
+        fontFamily: 'Roboto',
+        flex: 1,
+        flexWrap: 'wrap',
+        textAlign: 'center',
     },
     logo: {
         position: 'absolute',
